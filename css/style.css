@@ -1,0 +1,417 @@
+
+@import url('https://fonts.googleapis.com/css2? family=Poppins:ital,wght@1,800&display=swap');
+/* CUERPO */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+
+	font-size: 1em;
+	line-height: 1.5em;
+
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+/* HEADER */
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+
+/* Logo */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/* Navegación */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+	
+/* HEADER FINAL*/
+
+/* MAIN */
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #FFC300;
+}
+.imagenIndex{
+    width: 100%;
+
+}
+
+/************************
+
+Footer
+
+************************/
+
+footer{
+    background-color: #333;
+    color: var(--second-c);
+    padding: 1px;
+
+  }
+  footer ul{
+    padding:0;
+  }
+  footer li{
+    list-style: none;
+  }
+  .wrap-footer{
+    display: grid;
+    grid-template-columns: 30% 15% 15% 20%;
+    column-gap: 5%;
+    padding: 1rem;
+    margin: 0rem auto;
+    max-width: 1200px;
+  }
+  .logo-element_footer{
+    display: flex;
+    margin: 0rem 0;
+  }
+  .logo-element_footer img{
+    max-height: 75px;
+  }
+  .element-footer h5{
+    margin: 1rem 0;
+  }
+  .text-element-footer li{
+    line-height: 2;
+  }
+  .link-elements-footer li a{
+    color:#FFC300;
+  }
+  .rrss-element-footer ul{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .rrss-element-footer img{
+    width: 35px;
+  }
+  .rrss-element-footer li{
+    margin-right: 1rem;
+  }
+  .footer-creds{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    color: #576171;
+    font-size: .9rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .legal-creds ul{
+    display: flex;
+    flex-flow: row;
+  }
+  .legal-creds ul li{
+    padding-right: 1rem;
+  }
+  .legal-creds ul a{
+    color: #576171;
+    font-size: .9rem;
+  }
+
+  /***************
+    INDEX FIN
+  ***************/
+
+  .centradoinfo{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    color: #d8ff00;
+
+    margin: 10px 20px;
+   font-family: verdana, arial, helvetica;
+
+    background-color: #0b76a6;
+   
+
+}
+.centradoinfo p{
+  text-align:center;
+  word-spacing: 100%;
+}
+
+.fondolindo{
+  background-color: black;
+  opacity: 80%;
+
+}
+
+.imagenInfo{
+  padding: 10px 100px;
+  width: 230px;
+  height: 230px;
+  
+}
+    /***************
+    INFO FIN
+  ***************/
+
+    /***************
+    SERVICIOS INICIO
+  ***************/  
+  .fondito{
+    background-color: white;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .row::after,
+  .row::before {
+    content: " ";
+    display: table;
+  }
+  
+  .row::after {
+    clear: both;
+  }
+  .col-14 {
+  
+    width: calc(100% - 20px);
+    color: black;
+  }
+
+  .boton {
+    background: #0F7DF6;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    border: #0F7DF6;
+  }
+
+
+
+      /***************
+    SERVICIOS FIN
+  ***************/  
+
+
+      /***************
+    GRACIAS INICIO
+  ***************/  
+  .image-center {
+    background-image: url("../assets/fotoscasas/bueno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  
+.textoLindo{
+  font-size: 60%;
+  font-style: center;
+}
+.presentacion img{
+  position: relative;}
+  
+
+      /***************
+    GRACIAS FIN
+  ***************/    
+
+
+
+      /***************
+    Contacto INICIO
+  ***************/    
+
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    background-color: rgb(0, 76, 255);
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: red; 
+    border-color: black; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  .pModificado{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  .map iframe {
+    height: 200px;
+}
